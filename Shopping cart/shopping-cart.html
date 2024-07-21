@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./shoppingcart.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="app">
+      <div>
+        <div class="banner">
+          <ul class="box-area">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+          <div class="main-cart">
+            <div class="card">
+              <div class="top-bar">
+                <i class="fab fa-apple"></i>
+                <em class="stocks">In Stock</em>
+              </div>
+              <div class="img-container">
+                <img
+                  class="product-img"
+                  src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-pro-12-select-wifi-spacegray-202003_FMT_WHH?wid=940&amp;hei=1112&amp;fmt=png-alpha&amp;qlt=80&amp;.v=1583553704156"
+                  alt=""
+                />
+                <div class="out-of-stock-cover"><span>Out Of Stock</span></div>
+              </div>
+              <div class="details">
+                <div class="name-fav">
+                  <strong class="product-name">iPad Pro</strong>
+                  <button class="heart">
+                    <i class="fas fa-heart"></i>
+                  </button>
+                </div>
+                <div class="wrapper">
+                  <h5>Your next computer is not a computer</h5>
+                  <p>
+                    It’s a magical piece of glass. It’s so fast most PC laptops
+                    can’t catch up. And you can use it with touch, pencil,
+                    keyboard and now trackpad. It’s the new iPad Pro.
+                  </p>
+                </div>
+                <div class="purchase">
+                  <p class="product-price">₹ 71900</p>
+                  <span class="btn-add">
+                    <div>
+                      <button class="add-btn">
+                        Add <i class="fas fa-chevron-right"></i>
+                      </button></div
+                  ></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="nav">
+            <button>
+              <i class="fas fa-shopping-cart" style="font-size: 2rem"></i>
+            </button>
+            <span class="total-qty">0</span>
+          </div>
+          <div class="cover"></div>
+          <div class="cover purchase-cover"></div>
+          <!--  -->
+          <div class="cart">
+            <div class="side-nav">
+              <button><i class="fas fa-times"></i></button>
+              <h2>Cart</h2>
+              <div class="cart-items"></div>
+              <div class="final">
+                <strong>Total: ₹ <span class="total">0</span>.00/-</strong>
+                <div class="action">
+                  <button class="btn buy">
+                    Purchase
+                    <i class="fas fa-credit-card" style="color: #6665dd"></i>
+                  </button>
+                  <button class="btn clear">
+                    Clear Cart
+                    <i class="fas fa-trash" style="color: #bb342f"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="stock-limit">
+            <em>You Can Only Buy 10 Items For Each Product</em>
+            <button class="btn-ok">Okay</button>
+          </div>
+          <div class="order-now"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./shopping-cart.js"></script>
+  </body>
+</html>
